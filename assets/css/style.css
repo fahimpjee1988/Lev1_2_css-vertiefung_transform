@@ -1,0 +1,45 @@
+body {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.box{
+    width: 150px;
+    padding: 60px 0;
+    background: blue;
+    color: white;
+    text-align: center;
+    border-radius: 10%;
+    transition: 2s form ease;
+}
+
+.translate:hover{
+    transform: translate(40px,40px);
+
+}
+.transx:hover{
+    transform: translateX(40px);
+
+}
+.transy:hover{
+    transform: translateY(20px);
+
+}
+
+
+
+.rotate:hover{
+    transform: rotate(45deg);
+
+}
+.scale:hover{
+    transform: scaley(1.3);
+
+}
+.skew:hover{
+    transform: scaley(1.3);
+ 
+}
+
+
